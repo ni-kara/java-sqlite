@@ -19,12 +19,11 @@ A user has a username, a password and a user_id.
 The username is simply a string which given from user.
 
 ### Passowrd
-The passowrd is a string which the give. Before it saved in database, this encode with sha-256.
+The passowrd is a string which the user give. Before it saved in database, this encode with sha-256.
 
 ### User_id
 The user_id is unique string key for any users. It generated random and checked before record introduce in database. 
 
 ### Login user
 User give a username and password, this data checked if there is record with this parameters.
-
 First the password encoding with sha-256 and then checked if there is record with this password.
