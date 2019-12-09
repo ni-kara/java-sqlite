@@ -28,4 +28,4 @@ User give a _username_ and _password_, this data checked if there is record with
 
 
 ## SQLite Connection
-The SQLite connection with database in Java need the library 'org.sqlite.JDBC'. For the needs of the project downloaded from [here](https://bitbucket.org/xerial/sqlite-jdbc/downloads/).
+The SQLite connection with database in Java need the library 'org.sqlite.JDBC'. For the needs of the project the library downloaded from [here](https://bitbucket.org/xerial/sqlite-jdbc/downloads/).
