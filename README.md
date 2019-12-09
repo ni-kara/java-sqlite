@@ -25,3 +25,7 @@ The _user_id_ is unique string key for any users. It generated random and checke
 
 ### Login
 User give a _username_ and _password_, this data checked if there is record with this parameters. First the _password_ encoding with sha-256 and then checked if there is this record.
+
+
+## SQLite Connection
+The SQLite connection with database in Java need the library 'org.sqlite.JDBC'. For the needs of the project downloaded from [here](https://bitbucket.org/xerial/sqlite-jdbc/downloads/).
