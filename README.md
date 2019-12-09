@@ -4,11 +4,9 @@ The java sqlite demo is project that connected with a sqlite database.
 ## SQLite Database
 The sqlite DB has a table with 3 colums:
 
-varchar (10) user_id primary key
-
-varchar (25) username
-
-varchar (64) password
+*varchar (10) user_id primary key
+*varchar (25) username
+*varchar (64) password
 
 
 ## Application
@@ -24,6 +22,6 @@ The passowrd is a string which the user give. Before it saved in database, this 
 ### User_id
 The user_id is unique string key for any users. It generated random and checked before record introduce in database. 
 
-### Login user
+### Login
 User give a username and password, this data checked if there is record with this parameters.
 First the password encoding with sha-256 and then checked if there is record with this password.
