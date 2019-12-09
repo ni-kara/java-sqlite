@@ -12,7 +12,7 @@ varchar (64) password
 A user has a username, a password and a user_id.
 
 ### Username
-The username is simply a string which the user give.
+The username is simply a string which given from user.
 
 ### Passowrd
 The passowrd is a string which the give. Before it saved in database, this encode with sha-256.
