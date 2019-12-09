@@ -4,9 +4,9 @@ The java sqlite demo is project that connected with a sqlite database.
 ## SQLite Database
 The sqlite DB has a table with 3 colums:
 
-*varchar (10) user_id primary key
-*varchar (25) username
-*varchar (64) password
+* varchar (10) user_id primary key
+* varchar (25) username
+* varchar (64) password
 
 
 ## Application
