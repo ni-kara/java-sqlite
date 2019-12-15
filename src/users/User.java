@@ -1,7 +1,7 @@
 package users;
 
 public class User extends Person{
-	private String user_id;
+	private String user_id="";
 	private String password;
 	
 	public User(){
