@@ -1,7 +1,7 @@
 # Java-SQLite
-This demo was developed in Java and it contains some simple methods which the Java to connected with a sqlite Database.
+This demo was developed in Java and it contains some simple methods with which the Java can be connected with a sqlite database.
 
-The java sqlite demo is a project that connected with a sqlite database. The user can to create a account and the data will saved in database. After that the user would be login with the same data and then he can manage him product.
+The java sqlite demo is a project that is connected with a sqlite database. The user can create an account and the data will be saved in the database. After that the user can login with the same data and then he can manage his products.
 
 
 ## SQLite Database
@@ -29,17 +29,17 @@ Third _productOfUser_ table has 2 colums:
 ### Create/Register user
 A user has a _username_, a _password_ and a _user_id_.
 
-The _username_ is simply a string which given from user.
+The _username_ is a string which is given from the user.
 
-The _passowrd_ is a string which the user give it. Before it saved in database, this encode with sha-256.
+The _password_ is a string which is given from user. Before it is saved in the database, it is encoded with sha-256.
 
-The _user_id_ is unique string key for any users. It is generated random and checked for duplicate before record introduce on database.
+The _user_id_ is unique string key for any users. It is generated random and checked for duplicate before the record is introduced in the database.
 
 
 ### Login
-User give a _username_ and a _password_, this data checked if there is record with this parameters. 
+User give a _username_ and a _password_, this data is checked if exist record with this parameters. 
 
-First the _password_ encoding with sha-256 and then checked if there is this record.
+First the _password_ encoding with sha-256 and then checked if exist this record.
 
 
 ### Create/Add product
@@ -57,7 +57,7 @@ The _quantity_ is a int which the user give it.
 
 
 ### Update product
-The user can update quantity of products which belonging to him.
+The user can update the quantity of products which belong to him.
 
 
 ### Delete product
@@ -65,4 +65,4 @@ The user can delete the products he wants that belong to him.
 
 
 ## SQLite Connection
-The SQLite connection with database in Java need the library 'org.sqlite.JDBC'. For the needs of the project the library downloaded from [here](https://bitbucket.org/xerial/sqlite-jdbc/downloads/).
+The SQLite connection with database in Java need the library 'org.sqlite.JDBC'. For the needs of the project the library was downloaded from [here](https://bitbucket.org/xerial/sqlite-jdbc/downloads/).
