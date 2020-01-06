@@ -62,10 +62,6 @@ The _description_ is a string which given from user.
 
 The _owner_ is a string which given automatically the username of user.
 
-### View products of user
-Τhe user can see all products belonging to him.
-
-
 ### Update product
 The user can update the _quantity_ and _description_ of products which belong to him.
 
