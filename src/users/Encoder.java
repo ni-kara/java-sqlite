@@ -25,8 +25,6 @@ public class Encoder {
 			}
 			
 			return hashtext;
-
-			
 		} 
 		catch (NoSuchAlgorithmException e) {
 			throw new RuntimeException(e);
